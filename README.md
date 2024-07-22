@@ -23,8 +23,7 @@ This project is a graphical user interface (GUI) application for solving mazes u
    ```bash
    pip install -r requirements.txt
    ```
- ```
-
+   
 ### 🛠️ Additional Setup for `tkinter`
 
 You cannot install `tkinter` using `pip` because it is not available as a standalone package. Instead, it comes bundled with Python installations. Here’s how you can ensure you have it:
