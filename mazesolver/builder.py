@@ -1,3 +1,12 @@
+#!/bin/python3
+
+#####################################
+#                                   #
+#    GitHub    : @therboy          #
+#    Developer : Reza Khodarahimi  #
+#  﫥  Copyright   2024              #
+#                                   #
+#####################################
 # mazesolver/builder.py
 
 def enable_maze_builder(gui):
