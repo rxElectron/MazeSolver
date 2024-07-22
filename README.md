@@ -7,6 +7,10 @@ This project is a graphical user interface (GUI) application for solving mazes u
 🎨 Visualize the maze-solving process  
 🔀 Choose between different maze-solving algorithms:
 
+<div class="dropdown">
+  <button onclick="toggleDropdown()" class="dropbtn">Toggle Algorithm Table</button>
+  <div id="myDropdown" class="dropdown-content">
+  
 | Algorithm                                                         | Description                                                                                     |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | [**`BFS`**](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)                 | Breadth-First Search for shortest path in an unweighted graph.                                  |
@@ -25,6 +29,9 @@ This project is a graphical user interface (GUI) application for solving mazes u
 | [**`Fringe Search`**](https://en.wikipedia.org/wiki/Fringe_search)                                | Fringe Search for memory-efficient pathfinding similar to A*.                                   |
 | [**`SMA*`**](https://en.wikipedia.org/wiki/SMA*)                                                  | Simplified Memory-Bounded A* for optimal pathfinding within memory constraints.                 |
 
+  </div>
+</div>
+
 🏗️ Create and save custom mazes                              
 
 🎭 Different visualization styles:                            
@@ -36,7 +43,6 @@ This project is a graphical user interface (GUI) application for solving mazes u
 |  `Animation`                                                    | Animated visualization of the solving process.                                                  |
 
 🖱️ Interactive GUI for easy maze manipulation
-
 
 ## Installation 💻
 
@@ -104,6 +110,10 @@ This will launch the Maze Solver GUI, where you can create, solve, and visualize
 
 ## File Structure 📁
 
+<div class="dropdown">
+  <button onclick="toggleDropdown()" class="dropbtn">Toggle File Structure</button>
+  <div id="fileDropdown" class="dropdown-content">
+
 | File/Directory             | Description                                        |
 |----------------------------|----------------------------------------------------|
 | `main.py`                  | Main entry point for the application.              |
@@ -113,6 +123,9 @@ This will launch the Maze Solver GUI, where you can create, solve, and visualize
 | `mazesolver/builder.py`    | Contains the maze builder functionality.           |
 | `requirements.txt`         | List of dependencies for the project.              |
 | `README.md`                | Detailed documentation for the project.            |
+
+  </div>
+</div>
 
 ## How to Use 📝
 
@@ -138,3 +151,64 @@ For any questions or inquiries, please contact Reza Khodarahimi at kh.reza10@gma
 - Thank you to all open-source projects that made this project possible.
 - Thanks to the Python community for the excellent Tkinter library.
 - Inspired by various maze-solving algorithms and visualizations.
+
+<script>
+function toggleDropdown() {
+  document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById("fileDropdown").classList.toggle("show");
+}
+</script>
+
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 0 9px #999;
+  animation: glow 1s infinite;
+  background: linear-gradient(270deg, #00DBDE, #FC00FF);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.dropbtn:hover {
+  box-shadow: 0 5px #666;
+  transform: translateY(-2px);
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 230px;
+  border: 1px solid #ddd;
+  z-index: 1;
+  max-height: 400px;
+  overflow-y: auto;
+  font-size: 12px;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
+.dropdown-content table {
+  width: 100%;
+}
+
+.dropdown-content table td, .dropdown-content table th {
+  padding: 8px;
+  text-align: left;
+}
+
+</style>
