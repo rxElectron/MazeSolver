@@ -23,6 +23,45 @@ This project is a graphical user interface (GUI) application for solving mazes u
    ```bash
    pip install -r requirements.txt
    ```
+ ```
+
+### 🛠️ Additional Setup for `tkinter`
+
+You cannot install `tkinter` using `pip` because it is not available as a standalone package. Instead, it comes bundled with Python installations. Here’s how you can ensure you have it:
+
+#### For Different Operating Systems
+
+- **Windows:**
+  Tkinter is included with the standard Python installation. If you installed Python from the official installer, you should already have it.
+
+- **Ubuntu/Debian:**
+  You can install Tkinter with:
+  ```bash
+  sudo apt-get install python3-tk
+  ```
+
+- **Fedora:**
+  Use the following command:
+  ```bash
+  sudo dnf install python3-tkinter
+  ```
+
+- **macOS:**
+  Tkinter is usually included with the Python installation from python.org. If you installed Python via Homebrew, you might need to install it separately:
+  ```bash
+  brew install python-tk
+  ```
+
+### 🧪 Verify Installation
+
+To check if Tkinter is installed correctly, run:
+
+```python
+import tkinter
+tkinter._test()
+```
+
+If a small window appears, Tkinter is working.
 
 ## Usage 🚀
 
