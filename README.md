@@ -1,3 +1,4 @@
+
 # Maze Solver GUI 🧩🔍
 
 This project is a graphical user interface (GUI) application for solving mazes using different algorithms like Breadth-First Search (BFS), Depth-First Search (DFS), and A*. The application is built using Python's Tkinter library.
@@ -13,39 +14,36 @@ This project is a graphical user interface (GUI) application for solving mazes u
 ## Installation 💻
 
 1. Clone the repository:
-   
-      
-      git clone https://github.com/therboy/MazeSolver.git
-      cd MazeSolver
-      
+   ```bash
+   git clone https://github.com/therboy/MazeSolver.git
+   cd MazeSolver
+   ```
 
 2. Install dependencies:
-   
-      
-      pip install -r requirements.txt
-      
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage 🚀
 
 Run the application:
-
-
+```bash
 python main.py
-
+```
 
 This will launch the Maze Solver GUI, where you can create, solve, and visualize mazes.
 
 ## File Structure 📁
 
-| File/Directory         | Description                                        |
-|------------------------|----------------------------------------------------|
-| `main.py`              | Main entry point for the application.              |
-| `mazesolver/gui.py`    | Contains the main GUI class and Tkinter setup.     |
-| `mazesolver/algorithms.py` | Contains the maze-solving algorithms.          |
-| `mazesolver/visualization.py` | Contains the visualization methods.         |
-| `mazesolver/builder.py`    | Contains the maze builder functionality.       |
-| `requirements.txt`     | List of dependencies for the project.              |
-| `README.md`            | Detailed documentation for the project.            |
+| File/Directory             | Description                                        |
+|----------------------------|----------------------------------------------------|
+| `main.py`                  | Main entry point for the application.              |
+| `mazesolver/gui.py`        | Contains the main GUI class and Tkinter setup.     |
+| `mazesolver/algorithms.py` | Contains the maze-solving algorithms.              |
+| `mazesolver/visualization.py` | Contains the visualization methods.            |
+| `mazesolver/builder.py`    | Contains the maze builder functionality.           |
+| `requirements.txt`         | List of dependencies for the project.              |
+| `README.md`                | Detailed documentation for the project.            |
 
 ## How to Use 📝
 
