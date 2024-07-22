@@ -1,6 +1,3 @@
-Sure! Here is the enhanced `README.md` with additional details and links to Geeks for Geeks articles for each algorithm:
-
-```markdown
 # Maze Solver GUI 🧩🔍
 
 This project is a graphical user interface (GUI) application for solving mazes using different algorithms like Breadth-First Search (BFS), Depth-First Search (DFS), A*, and more. The application is built using Python's Tkinter library.
