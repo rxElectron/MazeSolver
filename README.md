@@ -13,14 +13,14 @@ This project is a graphical user interface (GUI) application for solving mazes u
   - [Greedy Best-First](https://www.geeksforgeeks.org/greedy-best-first-search-algorithm/)
   - [Bidirectional](https://www.geeksforgeeks.org/bidirectional-search/)
   - [Random Walk](https://www.geeksforgeeks.org/random-walk-implementation-python/)
-  - [IDA*](https://www.geeksforgeeks.org/iterative-deepening-a-algorithm-ida-artificial-intelligence/))
+  - [IDA*](https://www.geeksforgeeks.org/iterative-deepening-a-algorithm-ida-artificial-intelligence/)
   - [Jump Point Search](https://www.geeksforgeeks.org/jump-search/)
   - [Bellman-Ford](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
   - [Floyd-Warshall](https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/)
-  - [D*](https://www.geeksforgeeks.org/d-star-algorithm-the-parent-algorithm-of-d-star-lite/)
-  - [Theta*](https://www.geeksforgeeks.org/theta-algorithm-in-ai/)
-  - [Fringe Search](https://www.geeksforgeeks.org/fringe-search-algorithm/)
-  - [SMA*](https://www.geeksforgeeks.org/simplified-memory-bounded-a-algorithm-sma/)
+  - [D*](https://en.wikipedia.org/wiki/D*)
+  - [Theta*](https://news.movel.ai/theta-star?x-host=news.movel.ai)
+  - [Fringe Search](https://en.wikipedia.org/wiki/Fringe_search)
+  - [SMA*](https://en.wikipedia.org/wiki/SMA*)
 - 🏗️ Create and save custom mazes
 - 🎭 Different visualization styles: Normal, Color Gradient, Animation
 - 🖱️ Interactive GUI for easy maze manipulation
