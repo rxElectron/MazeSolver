@@ -9,8 +9,8 @@ This project is a graphical user interface (GUI) application for solving mazes u
 
 | Algorithm                                                         | Description                                                                                     |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| -01 [`BFS`](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)                 | Breadth-First Search for shortest path in an unweighted graph.                                  |
-| -02 [`DFS`](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)                 | Depth-First Search for exploring all possible paths.                                            |
+| **01** [`BFS`](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)                 | Breadth-First Search for shortest path in an unweighted graph.                                  |
+| **02** [`DFS`](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)                 | Depth-First Search for exploring all possible paths.                                            |
 | - [`A*`](https://www.geeksforgeeks.org/a-search-algorithm/)                                     | A* Search for optimal pathfinding.                                                              |
 | - [`Dijkstra`](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)   | Dijkstra's algorithm for shortest paths in a weighted graph.                                    |
 | - [`Greedy Best-First`](https://www.geeksforgeeks.org/greedy-best-first-search-algorithm/)      | Greedy Best-First Search for faster, heuristic-driven pathfinding.                              |
