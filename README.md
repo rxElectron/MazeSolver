@@ -1,12 +1,29 @@
+Sure! Here is the enhanced `README.md` with additional details and links to Geeks for Geeks articles for each algorithm:
 
+```markdown
 # Maze Solver GUI 🧩🔍
 
-This project is a graphical user interface (GUI) application for solving mazes using different algorithms like Breadth-First Search (BFS), Depth-First Search (DFS), and A*. The application is built using Python's Tkinter library.
+This project is a graphical user interface (GUI) application for solving mazes using different algorithms like Breadth-First Search (BFS), Depth-First Search (DFS), A*, and more. The application is built using Python's Tkinter library.
 
 ## Features 🌟
 
 - 🎨 Visualize the maze-solving process
-- 🔀 Choose between different maze-solving algorithms (BFS, DFS, A*)
+- 🔀 Choose between different maze-solving algorithms:
+  - [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+  - [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
+  - [A*](https://www.geeksforgeeks.org/a-search-algorithm/)
+  - [Dijkstra](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)
+  - [Greedy Best-First](https://www.geeksforgeeks.org/greedy-best-first-search-gbfs/)
+  - [Bidirectional](https://www.geeksforgeeks.org/bidirectional-search/)
+  - [Random Walk](https://www.geeksforgeeks.org/random-walk-implementation-python/)
+  - [IDA*](https://www.geeksforgeeks.org/ida-star-algorithm/)
+  - [Jump Point Search](https://www.geeksforgeeks.org/jump-point-search-algorithm-in-game-development/)
+  - [Bellman-Ford](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)
+  - [Floyd-Warshall](https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/)
+  - [D*](https://www.geeksforgeeks.org/d-star-algorithm-the-parent-algorithm-of-d-star-lite/)
+  - [Theta*](https://www.geeksforgeeks.org/theta-algorithm-in-ai/)
+  - [Fringe Search](https://www.geeksforgeeks.org/fringe-search-algorithm/)
+  - [SMA*](https://www.geeksforgeeks.org/simplified-memory-bounded-a-algorithm-sma/)
 - 🏗️ Create and save custom mazes
 - 🎭 Different visualization styles: Normal, Color Gradient, Animation
 - 🖱️ Interactive GUI for easy maze manipulation
@@ -23,7 +40,7 @@ This project is a graphical user interface (GUI) application for solving mazes u
    ```bash
    pip install -r requirements.txt
    ```
-   
+
 ### 🛠️ Additional Setup for `tkinter`
 
 You cannot install `tkinter` using `pip` because it is not available as a standalone package. Instead, it comes bundled with Python installations. Here’s how you can ensure you have it:
@@ -87,9 +104,9 @@ This will launch the Maze Solver GUI, where you can create, solve, and visualize
 
 1. 🚀 Launch the application using `python main.py`.
 2. 🏗️ Use the GUI to create a maze or load an existing one.
-3. 🧠 Choose a solving algorithm (BFS, DFS, or A*).
+3. 🧠 Choose a solving algorithm (BFS, DFS, A*, Dijkstra, etc.).
 4. 🎨 Select a visualization style.
-5. ▶️ Click the "Solve" button to watch the algorithm solve the maze.
+5. ▶️ Click the "Start" button to watch the algorithm solve the maze.
 
 ## 🤝 Contributing
 
