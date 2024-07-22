@@ -4,7 +4,7 @@ import tkinter as tk
 import time
 import queue
 import threading
-from .algorithms import bfs, dfs, astar
+from .algorithms import *
 from .visualization import color_gradient, animate_path
 from .builder import enable_maze_builder
 
@@ -63,16 +63,22 @@ class MazeSolverGUI:
 
         self.start = (0, 0)
         self.end = (8, 9)
+        self.maze = self.mazes["Maze 1"]
 
-        # Create canvas for maze visualization
+        self.width = len(self.maze[0])
+        self.height = len(self.maze)
+
+        # Create canvas for maze visualization...
         self.cell_width = 50
         self.cell_height = 50
         self.canvas = tk.Canvas(
-            self.root, width=10 * self.cell_width, height=9 * self.cell_height
+            self.root,
+            width=self.width * self.cell_width,
+            height=self.height * self.cell_height,
         )
         self.canvas.pack()
 
-        # Dropdown menu to select maze
+        # Dropdown menu to select maze...
         self.maze_var = tk.StringVar(self.root)
         self.maze_var.set("Maze 1")
         self.maze_menu = tk.OptionMenu(
@@ -80,7 +86,7 @@ class MazeSolverGUI:
         )
         self.maze_menu.pack(side=tk.LEFT, padx=10)
 
-        # Create buttons
+        # Create buttons...
         self.start_button = tk.Button(
             self.root, text="Start", command=self.start_solving
         )
@@ -92,13 +98,13 @@ class MazeSolverGUI:
         self.exit_button = tk.Button(self.root, text="Exit", command=self.exit_game)
         self.exit_button.pack(side=tk.LEFT, padx=10)
 
-        # Status label
+        # Status label...
         self.status_label = tk.Label(
             self.root, text="Select a maze and click 'Start' to find path", fg="blue"
         )
         self.status_label.pack(pady=10)
 
-        # Define colors for maze visualization
+        # Define colors for maze visualization...
         self.colors = {
             "start": "blue",
             "end": "green",
@@ -109,7 +115,7 @@ class MazeSolverGUI:
             "open": "white",
         }
 
-        # Initialize BFS variables
+        # Initialize BFS variables...
         self.queue = queue.Queue()
         self.visited = set()
         self.parent = {}
@@ -117,7 +123,23 @@ class MazeSolverGUI:
         self.algorithm_var = tk.StringVar(self.root)
         self.algorithm_var.set("BFS")
         self.algorithm_menu = tk.OptionMenu(
-            self.root, self.algorithm_var, "BFS", "DFS", "A*"
+            self.root,
+            self.algorithm_var,
+            "BFS",
+            "DFS",
+            "A*",
+            "Dijkstra",
+            "Greedy Best-First",
+            "Bidirectional",
+            "Random Walk",
+            "IDA*",
+            "Jump Point Search",
+            "Bellman-Ford",
+            "Floyd-Warshall",
+            "D*",
+            "Theta*",
+            "Fringe Search",
+            "SMA*",
         )
         self.algorithm_menu.pack(side=tk.LEFT, padx=10)
 
@@ -197,6 +219,30 @@ class MazeSolverGUI:
             path_found = dfs(self)
         elif algorithm == "A*":
             path_found = astar(self)
+        elif algorithm == "Dijkstra":
+            path_found = dijkstra(self)
+        elif algorithm == "Greedy Best-First":
+            path_found = greedy_best_first_search(self)
+        elif algorithm == "Bidirectional":
+            path_found = bidirectional_search(self)
+        elif algorithm == "Random Walk":
+            path_found = random_walk(self)
+        elif algorithm == "IDA*":
+            path_found = ida_star(self)
+        elif algorithm == "Jump Point Search":
+            path_found = jump_point_search(self)
+        elif algorithm == "Bellman-Ford":
+            path_found = bellman_ford(self)
+        elif algorithm == "Floyd-Warshall":
+            path_found = floyd_warshall(self)
+        elif algorithm == "D*":
+            path_found = d_star(self)
+        elif algorithm == "Theta*":
+            path_found = theta_star(self)
+        elif algorithm == "Fringe Search":
+            path_found = fringe_search(self)
+        elif algorithm == "SMA*":
+            path_found = sma_star(self)
 
         if path_found:
             self.highlight_path(path_found)
@@ -342,6 +388,33 @@ class MazeSolverGUI:
 
         return neighbors
 
+    def construct_bidirectional_path(
+        self, forward_visited, backward_visited, meet_point
+    ):
+        path = []
+        current = meet_point
+        while current:
+            path.append(current)
+            current = forward_visited[current]
+        path.reverse()
+
+        current = backward_visited[meet_point]
+        while current:
+            path.append(current)
+            current = backward_visited[current]
+
+        return path
+
+    def is_valid_cell(self, cell):
+        x, y = cell
+        return 0 <= x < self.height and 0 <= y < self.width and not self.is_wall(cell)
+
+    def is_wall(self, cell):
+        x, y = cell
+        if x < 0 or y < 0 or x >= self.height or y >= self.width:
+            return True
+        return self.maze[x][y] == 1
+
     def construct_path(self, end):
         """
         Constructs the path from the start to the end of the maze.
@@ -358,7 +431,7 @@ class MazeSolverGUI:
         """
         path = []
         current = end
-        while current != self.start:
+        while current in self.parent:
             path.append(current)
             current = self.parent[current]
         path.append(self.start)
