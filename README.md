@@ -36,6 +36,9 @@ This project is a graphical user interface (GUI) application for solving mazes u
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   ```
+   or:
+   ```bash
    pip install -r requirements.txt --break-system-packages
    ```
 
