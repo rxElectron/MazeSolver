@@ -36,6 +36,7 @@ This project is a graphical user interface (GUI) application for solving mazes u
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   pip install -r requirements.txt --break-system-packages
    ```
 
 ### 🛠️ Additional Setup for `tkinter`
