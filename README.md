@@ -53,15 +53,19 @@ This will launch the Maze Solver GUI, where you can create, solve, and visualize
 4. 🎨 Select a visualization style.
 5. ▶️ Click the "Solve" button to watch the algorithm solve the maze.
 
-## Contributing 🤝
+## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please fork the repository and submit a pull request.
 
-## License 📄
+## ⚖️ License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+For any questions or inquiries, please contact Reza Khodarahimi at kh.reza10@gmail.com.
 
 ## Acknowledgements 🙏
-
+- Thank you to all open-source projects that made this project possible.
 - Thanks to the Python community for the excellent Tkinter library.
 - Inspired by various maze-solving algorithms and visualizations.
