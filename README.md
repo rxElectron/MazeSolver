@@ -10,7 +10,7 @@ This project is a graphical user interface (GUI) application for solving mazes u
   - [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
   - [A*](https://www.geeksforgeeks.org/a-search-algorithm/)
   - [Dijkstra](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)
-  - [Greedy Best-First](https://www.geeksforgeeks.org/greedy-best-first-search-gbfs/)
+  - [Greedy Best-First](https://www.geeksforgeeks.org/greedy-best-first-search-gbfs/](https://www.geeksforgeeks.org/greedy-best-first-search-algorithm/)
   - [Bidirectional](https://www.geeksforgeeks.org/bidirectional-search/)
   - [Random Walk](https://www.geeksforgeeks.org/random-walk-implementation-python/)
   - [IDA*](https://www.geeksforgeeks.org/ida-star-algorithm/)
