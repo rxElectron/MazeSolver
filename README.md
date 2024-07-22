@@ -4,10 +4,10 @@ This project is a graphical user interface (GUI) application for solving mazes u
 
 ## Features 🌟
 
-| Feature                                                         | Description                                                                                     |
+🎨 Visualize the maze-solving process 
+🔀 Choose between different maze-solving algorithms:
+| Algorithm                                                         | Description                                                                                     |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| 🎨 Visualize the maze-solving process                           | Watch as the algorithm explores the maze and finds the path.                                    |
-| 🔀 Choose between different maze-solving algorithms:            |                                                                                                 |
 | - [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)                 | Breadth-First Search for shortest path in an unweighted graph.                                  |
 | - [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)                 | Depth-First Search for exploring all possible paths.                                            |
 | - [A*](https://www.geeksforgeeks.org/a-search-algorithm/)                                     | A* Search for optimal pathfinding.                                                              |
@@ -23,12 +23,14 @@ This project is a graphical user interface (GUI) application for solving mazes u
 | - [Theta*](https://news.movel.ai/theta-star?x-host=news.movel.ai)                              | Theta* algorithm for smoother paths with line-of-sight checks.                                  |
 | - [Fringe Search](https://en.wikipedia.org/wiki/Fringe_search)                                | Fringe Search for memory-efficient pathfinding similar to A*.                                   |
 | - [SMA*](https://en.wikipedia.org/wiki/SMA*)                                                  | Simplified Memory-Bounded A* for optimal pathfinding within memory constraints.                 |
-| 🏗️ Create and save custom mazes                                | Design your own mazes and save them for later use.                                              |
-| 🎭 Different visualization styles:                              |                                                                                                 |
+🏗️ Create and save custom mazes                              
+🎭 Different visualization styles:                            
+| Feature                                                         | Description                                                                                     |
+|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | - Normal                                                       | Standard visualization.                                                                         |
 | - Color Gradient                                               | Visualization with color gradients.                                                             |
 | - Animation                                                    | Animated visualization of the solving process.                                                  |
-| 🖱️ Interactive GUI for easy maze manipulation                   | User-friendly graphical interface to interact with and modify mazes easily.                     |
+🖱️ Interactive GUI for easy maze manipulation
 
 ## Installation 💻
 
