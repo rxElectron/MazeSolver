@@ -9,21 +9,21 @@ This project is a graphical user interface (GUI) application for solving mazes u
 
 | Algorithm                                                         | Description                                                                                     |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| **01** [`BFS`](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)                 | Breadth-First Search for shortest path in an unweighted graph.                                  |
-| **02** [`DFS`](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)                 | Depth-First Search for exploring all possible paths.                                            |
-| - [`A*`](https://www.geeksforgeeks.org/a-search-algorithm/)                                     | A* Search for optimal pathfinding.                                                              |
-| - [`Dijkstra`](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)   | Dijkstra's algorithm for shortest paths in a weighted graph.                                    |
-| - [`Greedy Best-First`](https://www.geeksforgeeks.org/greedy-best-first-search-algorithm/)      | Greedy Best-First Search for faster, heuristic-driven pathfinding.                              |
-| - [`Bidirectional`](https://www.geeksforgeeks.org/bidirectional-search/)                        | Bidirectional Search for quicker results by searching from both start and goal.                 |
-| - [`Random Walk`](https://www.geeksforgeeks.org/random-walk-implementation-python/)             | Random Walk for exploring random paths.                                                         |
-| - [`IDA*`](https://www.geeksforgeeks.org/iterative-deepening-a-algorithm-ida-artificial-intelligence/) | Iterative Deepening A* for memory-efficient search.                                             |
-| - [`Jump Point Search`](https://www.geeksforgeeks.org/jump-search/)                             | Jump Point Search for optimized pathfinding in grid-based maps.                                 |
-| - [`Bellman-Ford`](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)                 | Bellman-Ford algorithm for shortest paths in graphs with negative weights.                      |
-| - [`Floyd-Warshall`](https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/)             | Floyd-Warshall algorithm for all pairs shortest paths.                                          |
-| - [`D*`](https://en.wikipedia.org/wiki/D*)                                                      | D* algorithm for dynamic pathfinding in changing environments.                                  |
-| - [`Theta*`](https://news.movel.ai/theta-star?x-host=news.movel.ai)                              | Theta* algorithm for smoother paths with line-of-sight checks.                                  |
-| - [`Fringe Search`](https://en.wikipedia.org/wiki/Fringe_search)                                | Fringe Search for memory-efficient pathfinding similar to A*.                                   |
-| - [`SMA*`](https://en.wikipedia.org/wiki/SMA*)                                                  | Simplified Memory-Bounded A* for optimal pathfinding within memory constraints.                 |
+| * [`**BFS**`](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)                 | Breadth-First Search for shortest path in an unweighted graph.                                  |
+| * [**`DFS`**](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)                 | Depth-First Search for exploring all possible paths.                                            |
+| * [`A*`](https://www.geeksforgeeks.org/a-search-algorithm/)                                     | A* Search for optimal pathfinding.                                                              |
+| * [`Dijkstra`](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)   | Dijkstra's algorithm for shortest paths in a weighted graph.                                    |
+| * [`Greedy Best-First`](https://www.geeksforgeeks.org/greedy-best-first-search-algorithm/)      | Greedy Best-First Search for faster, heuristic-driven pathfinding.                              |
+| * [`Bidirectional`](https://www.geeksforgeeks.org/bidirectional-search/)                        | Bidirectional Search for quicker results by searching from both start and goal.                 |
+| * [`Random Walk`](https://www.geeksforgeeks.org/random-walk-implementation-python/)             | Random Walk for exploring random paths.                                                         |
+| * [`IDA*`](https://www.geeksforgeeks.org/iterative-deepening-a-algorithm-ida-artificial-intelligence/) | Iterative Deepening A* for memory-efficient search.                                             |
+| * [`Jump Point Search`](https://www.geeksforgeeks.org/jump-search/)                             | Jump Point Search for optimized pathfinding in grid-based maps.                                 |
+| * [`Bellman-Ford`](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)                 | Bellman-Ford algorithm for shortest paths in graphs with negative weights.                      |
+| * [`Floyd-Warshall`](https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/)             | Floyd-Warshall algorithm for all pairs shortest paths.                                          |
+| * [`D*`](https://en.wikipedia.org/wiki/D*)                                                      | D* algorithm for dynamic pathfinding in changing environments.                                  |
+| * [`Theta*`](https://news.movel.ai/theta-star?x-host=news.movel.ai)                              | Theta* algorithm for smoother paths with line-of-sight checks.                                  |
+| * [`Fringe Search`](https://en.wikipedia.org/wiki/Fringe_search)                                | Fringe Search for memory-efficient pathfinding similar to A*.                                   |
+| * [**`SMA*`**](https://en.wikipedia.org/wiki/SMA*)                                                  | Simplified Memory-Bounded A* for optimal pathfinding within memory constraints.                 |
 
 🏗️ Create and save custom mazes                              
 
