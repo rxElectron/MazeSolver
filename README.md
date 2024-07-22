@@ -4,8 +4,9 @@ This project is a graphical user interface (GUI) application for solving mazes u
 
 ## Features 🌟
 
-🎨 Visualize the maze-solving process 
+🎨 Visualize the maze-solving process  
 🔀 Choose between different maze-solving algorithms:
+
 | Algorithm                                                         | Description                                                                                     |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | - [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)                 | Breadth-First Search for shortest path in an unweighted graph.                                  |
@@ -23,16 +24,19 @@ This project is a graphical user interface (GUI) application for solving mazes u
 | - [Theta*](https://news.movel.ai/theta-star?x-host=news.movel.ai)                              | Theta* algorithm for smoother paths with line-of-sight checks.                                  |
 | - [Fringe Search](https://en.wikipedia.org/wiki/Fringe_search)                                | Fringe Search for memory-efficient pathfinding similar to A*.                                   |
 | - [SMA*](https://en.wikipedia.org/wiki/SMA*)                                                  | Simplified Memory-Bounded A* for optimal pathfinding within memory constraints.                 |
-|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+
 🏗️ Create and save custom mazes                              
+
 🎭 Different visualization styles:                            
+
 | Feature                                                         | Description                                                                                     |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | - Normal                                                       | Standard visualization.                                                                         |
 | - Color Gradient                                               | Visualization with color gradients.                                                             |
 | - Animation                                                    | Animated visualization of the solving process.                                                  |
-|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+
 🖱️ Interactive GUI for easy maze manipulation
+
 
 ## Installation 💻
 
