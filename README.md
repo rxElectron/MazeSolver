@@ -46,7 +46,7 @@ This project is a graphical user interface (GUI) application for solving mazes u
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/therboy/MazeSolver.git
+   git clone https://github.com/rxElectron/MazeSolver.git
    cd MazeSolver
    ```
 
